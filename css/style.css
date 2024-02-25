@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("/img/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 875px;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 32px;
+    margin-left: 246px;
+    margin-right: 74px;
+}
+
+header nav ul li a {
+    /* desk mob 12 */
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+header ul a:hover {
+    color: rgb(245, 117, 32);
+}
+
+header .logos {
+    display: flex;
+    gap: 24px;
+    margin-right: 58px;
+}
+
+.head-btn {
+    /* Frame 19 */
+    position: static;
+    width: 180px;
+    height: 52px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 80px 16px 80px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 10px;
+    margin: 40px 0px;
+    border: none;
+    /* desk mob cta */
+    color: black;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 123%;
+    letter-spacing: 0%;
+    text-align: right;
+}
+
+.head-btn:hover {
+    background: rgb(245, 117, 32);
+    color: rgb(255, 255, 255);
+}
+
+header .left {
+    display: flex;
+    flex-direction: column;
+    width: 645px;
+}
+
+header .title {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 2%;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+header .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.head-sec {
+    display: flex;
+    width: 70%;
+    margin: 108px auto 0;
+}
+
+.velik {
+    /* bl */
+    background: rgb(16, 16, 16);
+    /* 1 */
+    position: relative;
+    width: 747px;
+    height: 212px;
+    display: flex;
+    padding-left: 319px;
+    align-items: center;
+}
+
+.head-down h3 {
+    /* desk mob 24 */
+    color: rgb(179, 179, 179);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.prof {
+    /* 2 */
+    position: relative;
+    width: 461px;
+    height: 212px;
+    /* dark */
+    background: rgb(52, 49, 45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dol {
+    /* 3 */
+    position: relative;
+    width: 746px;
+    height: 212px;
+    background: rgb(107, 102, 102);
+    display: flex;
+    align-items: center;
+    padding-left: 48px;
+}
+
+.head-down {
+    display: flex;
+}
+
+.velos {
+    border-radius: 10px;
+    background: rgb(16, 16, 16);
+    position: relative;
+    width: 1280px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-left: 80px;
+}
+
+.velos:hover {
+    background: rgb(245, 117, 32);
+}
+
+.velo-cards h2 {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: left;
+}
+
+.katalog {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: 113px auto 0;
+}
+
+main .title {
+    color: rgb(16, 16, 16);
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: center;
+    margin-bottom: 122px;
+}
+
+main {
+    background: rgb(179, 179, 179);
+    display: flex;
+    flex-direction: column;
+}
+
+.trade {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: rgb(16, 16, 16);
+    /* 2 */
+    position: relative;
+    width: 403px;
+    height: 458px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.velo-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.down-velos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 820px;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.zaps {
+    border-radius: 10px;
+
+    /* bl */
+    background: rgb(16, 16, 16);
+    /* 3 */
+    position: relative;
+    width: 400px;
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 29px;
+    padding-left: 24px;
+}
+
+.zaps img {
+    right: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.zaps:hover {
+    background: rgb(245, 117, 32);
+}
+
+.trade:hover {
+    background: rgb(245, 117, 32);
+}
+
+.trassa {
+    display: flex;
+    flex-direction: column;
+    margin-top: 43px;
+}
+
+.nes {
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+
+.nes .left {
+    margin-left: 282px;
+}
+
+.nes h2 {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: left;
+    margin-bottom: 72px;
+}
+
+.nes p {
+    /* desk mob text 16 */
+    color: rgb(229, 229, 229);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nes .subtitle {
+    margin-bottom: 16px;
+}
+
+.data-cards .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+    /* bl */
+    background: rgb(16, 16, 16);
+    /* 4 */
+    position: relative;
+    width: 400px;
+    height: 462px;
+}
+
+.card:hover {
+    background: rgb(245, 117, 32);
+}
+
+.card:hover .subtitle {
+    color: rgb(16, 16, 16);
+}
+
+.card:hover .data {
+    color: rgb(16, 16, 16);
+}
+
+.data-cards .data {
+    /* desk mob text 16 */
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 27px;
+    margin-top: 24px;
+}
+
+.data-cards .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-top: 24px;
+    margin-left: 27px;
+}
+
+.data-cards .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.data-cards {
+    width: 1280px;
+    margin: 110px auto;
+}
+
+.tell {
+    background: rgb(245, 117, 32);
+    display: flex;
+}
+
+.tell img {
+    margin-right: 0;
+}
+
+.tell h2 {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: left;
+}
+
+footer {
+    background-color: black;
+    height: 370px;
+}
